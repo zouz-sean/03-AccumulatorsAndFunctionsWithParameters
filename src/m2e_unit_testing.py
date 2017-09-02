@@ -4,11 +4,16 @@ This module helps you understand:
   -- the difference between PRINT and RETURN
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues.  December 2015.
+         and their colleagues.
 """
 # ----------------------------------------------------------------------
 # Students: READ the comment FARTHER DOWN in this file.
 #   There is nothing for you to turn in from this file.
+#
+# This file is the first module to use rosegraphics, so you need to right click
+# on the src folder and select Mark Directory as --> Sources Root
+# When you do that watch the red underline on rosegraphic disappear (you may need
+# to expand the line below to see the import rosegraphics as rg statement.
 # ----------------------------------------------------------------------
 
 import rosegraphics as rg
@@ -53,15 +58,14 @@ def distance(point):
     x_squared = point.x * point.x
     y_squared = point.y * point.x
 
-    return (math.sqrt(x_squared + y_squared))
+    return math.sqrt(x_squared + y_squared)
 
 
 # ----------------------------------------------------------------------
-# In most exercises we will follow the  UNIT TESTING
-# that the above code illustrates.
+# In most exercises we will follow the  UNIT TESTING that the above code illustrates.
 #
 # Look at the  DISTANCE  function defined above.  It is the function
-# that we want to test.  Read its green doc-string.
+# that we want to test.  Read its doc-string.
 #
 # Now look at the  TEST_DISTANCE  function defined above.
 # It is the function that  TESTS  the DISTANCE function.
@@ -105,7 +109,7 @@ def distance(point):
 # RUN this program now.  Did the DISTANCE function pass its tests?
 # (Answer: it passed TWO of its tests but NOT all three.)
 #
-# Testing is a BIG topic, but UNIT TESTING like the above is a start.
+# Testing is a BIG topic, but UNIT TESTING like the code above is a start.
 #
 # One more thing:
 # Students sometimes confuse PRINT and RETURN because  you will almost

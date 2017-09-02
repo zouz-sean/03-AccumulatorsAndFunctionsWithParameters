@@ -7,7 +7,7 @@ This module demonstrates and practices:
   -- UNIT TESTING.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  December 2015.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
@@ -36,8 +36,8 @@ def test_sum_of_digits():
     # TODO: 2. Implement this TEST function, as follows:
     #
     #  Step 1:  This TEST function tests the  sum_of_digits  function.
-    #    So read the green doc-string of the  sum_of_digits  function
-    #    defined below.  Be sure that you understand from the green
+    #    So read the doc-string of the  sum_of_digits  function
+    #    defined below.  Be sure that you understand from the
     #    doc-string what the  sum_of_digits  function SHOULD return.
     #
     #  Step 2:  Pick a test case:  a number that you could send as
@@ -80,14 +80,14 @@ def sum_of_digits(number):
     """
     # ------------------------------------------------------------------
     # Students:
-    #   Do NOT touch this function - it has no TODO in it.
+    #   Do NOT touch this function - it has no TO DO in it.
     #   Do NOT copy code from this function.
     #
     # Instead, ** CALL ** this function as needed in the other problems.
     #
     # Ask for help if you are unsure what it means to CALL a function.
     # The ONLY part of this function that you need to understand is
-    # the green doc-string above.  Treat this function as a black box.
+    # the doc-string above.  Treat this function as a black box.
     # ------------------------------------------------------------------
     if number < 0:
         number = -number
@@ -111,18 +111,19 @@ def test_digits_in_cube():
     #
     # To implement this TEST function, use the same 4 steps as above:
     #
-    #   Step 1: Read the green doc-string of  digits_in_cube  below.
+    #   Step 1: Read the doc-string of  digits_in_cube  below.
     #     Understand what that function SHOULD return.
     #
     #   Step 2:  Pick a test case:  a number(s) that you could send as
     #     actual argument(s) to the  digits_in_cube  function.
     #
-    #  Step 3: Figure out the CORRECT (EXPECTED) answer for your
-    #    test case.
+    #  Step 3: Figure out the CORRECT (EXPECTED) answer for your test case.
     #
     #  Step 4: Write code that prints both the EXPECTED answer
     #    and the ACTUAL answer returned when you call the function.
     #    Follow the same form as in previous examples.
+    #
+    #   Include at least **   3   ** tests.
     # ------------------------------------------------------------------
     print()
     print('-----------------------------------------------------')
@@ -158,8 +159,7 @@ def test_digits_in_power():
     #   It TESTS the  digits_in_power  function defined below.
     #   Include at least **   3   ** tests.
     #
-    # Use the same 4-step process as in implementing the previous
-    # TEST functions.
+    # Use the same 4-step process as in implementing the previous TEST functions.
     # ------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -216,17 +216,17 @@ def fancy_sums_of_digits(n):
     """
     What comes in:  A positive integer n.
     What goes out:
-      -- Let X denote the sum of the digits in (n ** 1000).
-      -- Let Y denote the sum of the digits in (n ** 999).
+      -- Let X denote the   sum   of the digits in (n ** 1000).
+      -- Let Y denote the   sum   of the digits in (n ** 999).
       This function RETURNs the sum of the digits in (X ** Y).
     Side effects:   None.
     Examples:
       -- If n is 2, then:
-            -- the sum of the digits in n ** 1000 is 1366 (trust me!).
-            -- the sum of the digits in n ** 999 is 1367 (trust me!).
+            -- the   sum   of the digits in n ** 1000 is 1366 (trust me!).
+            -- the   sum   of the digits in n ** 999 is 1367 (trust me!).
             -- so X ** Y is VERY LARGE in this case
                      (don't try to print it!)
-            -- the sum of the digits in (X ** Y) is 19084 (trust me!)
+            -- the   sum   of the digits in (X ** Y) is 19084 (trust me!)
             -- so this function returns 19084.
       -- If n is 35, then:
             -- the sum of the digits in n ** 1000 is 7021 (trust me!).

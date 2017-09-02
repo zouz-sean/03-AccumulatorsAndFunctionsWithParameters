@@ -4,8 +4,7 @@ This module demonstrates:
 1. How a module is executed by the Python interpreter:
 
    a. The module is processed from line 1 to the end.
-        In that processing, the interpreter encounters
-        and stores function DEFINITIONS:
+        In that processing, the interpreter encounters and stores function DEFINITIONS:
              def blah(...):
                  ...
                  ...
@@ -20,22 +19,17 @@ This module demonstrates:
       -- When a function is CALLED,
             execution JUMPS to the beginning of that function.
       -- When a function REACHES ITS END (or reaches a RETURN statement)
-            execution continues from the point
-            at which the function WAS CALLED.
-     Note: We will soon see two more exceptions to line-by-line
-           execution: LOOPs and IF statements.
+            execution continues from the point at which the function WAS CALLED.
+     Note: We will soon see two more exceptions to line-by-line execution: LOOPs and IF statements.
 
 2. DEFINING a function versus CALLING a function.
      -- The former begins     def blah(): ...
      -- The latter uses the notation     blah()    in an expression.
 
-Authors: Many, many people over many, many years.
-         David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues wrote this version.  September 2015.
 """
 # ----------------------------------------------------------------------
-# Students: PREDICT what this program will print when you run it,
-# then run it to check your prediction.  Before you leave this example,
+# Students: PREDICT what this program will print when you run this code.
+# Then run it to check your prediction.  Before you leave this example,
 # be sure you understand the order in which statements are executed:
 #      -- sequential
 #      -- but interrupted by function calls.
