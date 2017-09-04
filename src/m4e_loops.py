@@ -4,7 +4,7 @@ This module demonstrates simple loops of the form:
       ... k ...
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues.  September 2015.
+         and their colleagues.
 """
 # ----------------------------------------------------------------------
 # Students: Read and run this program.

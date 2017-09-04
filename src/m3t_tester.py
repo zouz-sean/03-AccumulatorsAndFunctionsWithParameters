@@ -3,7 +3,7 @@ This module tests   m3_calling_functions_returning_values.
 You do NOT need to understand all of the code in this module,
 but you should be able to pass all of its tests.
 
-Authors: Mark Hays and others.  December 2014.
+Authors: Mark Hays and others.
 """
 ##############################################################
 # Do not change this file.

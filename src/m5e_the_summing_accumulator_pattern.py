@@ -3,7 +3,7 @@ This module lets you study the ACCUMULATOR pattern for SUMMING.
 
 Authors: Many, many people over many, many years.
          David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues wrote this version.  September 2015.
+         and their colleagues wrote this version.
 """
 # ----------------------------------------------------------------------
 # Students: Read and run this program.  Just use it as an example.
@@ -44,6 +44,7 @@ def test_sum_squares():
     answer = sum_squares(1000)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
+
 
 def sum_squares(n):
     """
