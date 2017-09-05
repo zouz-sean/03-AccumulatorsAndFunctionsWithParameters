@@ -10,6 +10,8 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
+import m3t_tester
+
 
 def main():
     """ Calls the   TEST   functions in this module. """
@@ -20,7 +22,7 @@ def main():
 
     # ------------------------------------------------------------------
     # TODO: 9. DO THIS LAST!
-    #    -- Run file   m3t_tester.py   (do not make changes to it).
+    #    -- Uncomment the line of code below to run the main function in m3t_tester.py (do not make changes to it).
     #         It runs OUR tests on your code.
     #    -- Check to see whether all test cases indicate they
     #          "COMPLETED SUCCESSFULLY!"
@@ -28,6 +30,8 @@ def main():
     #         then you are likely not TESTING the methods correctly.
     #       ** Ask a TA or your professor for help in that case. **
     # ------------------------------------------------------------------
+
+    # m3t_tester.main()
 
 
 def test_sum_of_digits():
@@ -64,7 +68,7 @@ def test_sum_of_digits():
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
-    # TODO: 2 (continued).
+    # TO DO: 2 (continued).
     # Below this comment, add 3 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
@@ -206,7 +210,7 @@ def test_fancy_sums_of_digits():
     # ------------------------------------------------------------------
     # HINT:  For your 1st test, consider  n=10.  Figure out BY HAND
     # the correct (expected) answer for that test case.  (It's easy.)
-    # The green doc-string below gives test cases you can use for
+    # The doc-string below gives test cases you can use for
     # your 2nd and 3rd tests but READ THOSE TEST CASES CAREFULLY
     # in the doc-string to be sure that you understand the specification.
     # ------------------------------------------------------------------

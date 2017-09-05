@@ -10,10 +10,11 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 # Students: READ the comment FARTHER DOWN in this file.
 #   There is nothing for you to turn in from this file.
 #
-# This file is the first module to use rosegraphics, so you need to right click
+# TODO #1:
+# This file is the first file in project to use rosegraphics, so you need to right click
 # on the src folder and select Mark Directory as --> Sources Root
 # When you do that watch the red underline on rosegraphic disappear (you may need
-# to expand the line below to see the import rosegraphics as rg statement.
+# to expand the line below to see the import rosegraphics as rg statement).
 # ----------------------------------------------------------------------
 
 import rosegraphics as rg
