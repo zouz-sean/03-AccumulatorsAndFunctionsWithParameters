@@ -85,9 +85,6 @@ def sum_powers_in_range(m, n, p):
     #
     #   No fair running the code of  sum_powers_in_range  to GENERATE
     #   test cases; that would defeat the purpose of TESTING!
-    #
-    # COMMENT: Do you see how you could use   sum_powers_in_range
-    #    to test  sum_powers   and (to a lesser extent) vice-versa?
     # ------------------------------------------------------------------
 
 

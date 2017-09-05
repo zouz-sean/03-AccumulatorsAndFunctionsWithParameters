@@ -51,6 +51,7 @@ def draw_circles1():
     # TODO: 3. Implement this function, per its doc-string above.
     # Put a statement in  main  to test this function.
     # REQUIREMENT: You must use a   RANGE  statement to solve this problem.
+    # HINT: You might find a prior module useful when 'writing' this code.
     # ------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -200,6 +201,7 @@ def draw_cosines_and_sines():
     print('--------------------------------------------------')
     print('Running draw_cosines_and_sines:  See graphics window')
     print('--------------------------------------------------')
+
 
 # ----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being
