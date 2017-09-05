@@ -8,9 +8,6 @@ Authors: Many, many people over many, many years.
 # ----------------------------------------------------------------------
 # Students: Read and run this program.  Just use it as an example.
 #
-#   If you wish, also run it in the DEBUGGER, for a few iterations of
-#   the loop, so that you are sure you see the "accumulating" going on.
-#
 #   There is nothing for you to turn in from this file.
 # ----------------------------------------------------------------------
 

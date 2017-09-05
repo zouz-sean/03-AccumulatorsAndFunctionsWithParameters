@@ -51,7 +51,7 @@ def draw_circles():
     """
     # ------------------------------------------------------------------
     # Students:
-    #   Do NOT touch this function - it has no TODO in it.
+    #   Do NOT touch this function - it has no TO DO in it.
     # ------------------------------------------------------------------
     window = rg.RoseWindow(400, 400)
 
@@ -73,8 +73,8 @@ def draw_circles():
 #
 #   So, implement TWO functions immediately below this comment.
 #   They should be called:
-#      better_draw_circles
 #      test_better_draw_circles
+#      better_draw_circles
 #
 #   Your   better_draw_circles  function should have a single PARAMETER
 #   that is the amount by which the radii of the circles increase.
@@ -102,8 +102,8 @@ def draw_circles():
 #
 #   In this exercise, implement TWO MORE functions immediately below
 #   this comment. They should be called:
-#      even_better_draw_circles
 #      test_even_better_draw_circles
+#      even_better_draw_circles
 #
 #   Your new   even_better_draw_circles  function should have
 #   SEVERAL parameters, for allowing the caller to vary what YOU
