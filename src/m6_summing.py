@@ -10,11 +10,11 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_cosines()
-    test_sum_square_roots()
+    run_test_sum_cosines()
+    run_test_sum_square_roots()
 
 
-def test_sum_cosines():
+def run_test_sum_cosines():
     """ Tests the   sum_cosines   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this function.
@@ -50,7 +50,7 @@ def sum_cosines(n):
     # ------------------------------------------------------------------
 
 
-def test_sum_square_roots():
+def run_test_sum_square_roots():
     """ Tests the   sum_square_roots   function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this function.

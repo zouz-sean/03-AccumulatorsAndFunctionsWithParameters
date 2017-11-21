@@ -15,10 +15,10 @@ import m3t_tester
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_of_digits()
-    test_digits_in_cube()
-    test_digits_in_power()
-    test_fancy_sums_of_digits()
+    run_test_sum_of_digits()
+    run_test_digits_in_cube()
+    run_test_digits_in_power()
+    run_test_fancy_sums_of_digits()
 
     # ------------------------------------------------------------------
     # TODO: 9. DO THIS LAST!
@@ -34,7 +34,7 @@ def main():
     # m3t_tester.main()
 
 
-def test_sum_of_digits():
+def run_test_sum_of_digits():
     """ Tests the  sum_of_digits   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function, as follows:
@@ -106,7 +106,7 @@ def sum_of_digits(number):
     return digit_sum
 
 
-def test_digits_in_cube():
+def run_test_digits_in_cube():
     """ Tests the   digits_in_cube   function. """
     # ------------------------------------------------------------------
     # TODO: 3. Implement this function.
@@ -156,7 +156,7 @@ def digits_in_cube(n):
     # ------------------------------------------------------------------
 
 
-def test_digits_in_power():
+def run_test_digits_in_power():
     """ Tests the   digits_in_power   function. """
     # ------------------------------------------------------------------
     # TODO: 5. Implement this function.
@@ -192,7 +192,7 @@ def digits_in_power(n, k):
     # ------------------------------------------------------------------
 
 
-def test_fancy_sums_of_digits():
+def run_test_fancy_sums_of_digits():
     """ Tests the   fancy_sums_of_digits   function. """
     # ------------------------------------------------------------------
     # TODO: 7. Implement this function.

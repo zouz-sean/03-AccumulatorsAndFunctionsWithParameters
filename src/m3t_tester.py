@@ -17,10 +17,10 @@ from io import StringIO
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_of_digits()
-    test_digits_in_cube()
-    test_digits_in_power()
-    test_fancy_sums_of_digits()
+    run_test_sum_of_digits()
+    run_test_digits_in_cube()
+    run_test_digits_in_power()
+    run_test_fancy_sums_of_digits()
 
 
 ######################################################################
@@ -29,7 +29,7 @@ def main():
 # understand how it works at this point.
 ######################################################################
 
-def test_sum_of_digits():
+def run_test_sum_of_digits():
     """ Tests the  sum_of_digits  function. """
     print()
     print('--------------------------------------------------')
@@ -42,7 +42,7 @@ def test_sum_of_digits():
     runTestOnMethod(m3.sum_of_digits, testCases, "sum_of_digits")
 
 
-def test_digits_in_cube():
+def run_test_digits_in_cube():
     """ Tests the   digits_in_cube   function. """
     print()
     print('-----------------------------------------------------')
@@ -56,7 +56,7 @@ def test_digits_in_cube():
     runTestOnMethod(m3.digits_in_cube, testCases, "digits_in_cube")
 
 
-def test_digits_in_power():
+def run_test_digits_in_power():
     """ Tests the   digits_in_power   function. """
     print()
     print('--------------------------------------------------')
@@ -70,7 +70,7 @@ def test_digits_in_power():
     runTestOnMethod(m3.digits_in_power, testCases, "digits_in_power")
 
 
-def test_fancy_sums_of_digits():
+def run_test_fancy_sums_of_digits():
     """ Tests the  fancy_sums_of_digits  function. """
     print()
     print('--------------------------------------------------')

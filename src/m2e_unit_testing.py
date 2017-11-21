@@ -23,10 +23,10 @@ import math
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_distance()
+    run_test_distance()
 
 
-def test_distance():
+def run_test_distance():
     """ Tests the distance function by using 3 tests. """
     # Test 1:
     expected = math.sqrt(2)
@@ -68,36 +68,36 @@ def distance(point):
 # Look at the  DISTANCE  function defined above.  It is the function
 # that we want to test.  Read its doc-string.
 #
-# Now look at the  TEST_DISTANCE  function defined above.
+# Now look at the  run_test_DISTANCE  function defined above.
 # It is the function that  TESTS  the DISTANCE function.
 # We call this  UNIT TESTING  because we are testing a single UNIT
 # of the program, here, the function DISTANCE.
 #
-# A TEST_blah  function does the following several times:
+# A run_test_blah  function does the following several times:
 #
 #   1.  The  HUMAN  tester figures out the CORRECT (EXPECTED) answer
 #       on a particular test case, usually by working the problem
 #       by hand or by trusting a test case provided by the instructor.
 #
-#       For example, in the above TEST_DISTANCE function, the human
+#       For example, in the above run_test_DISTANCE function, the human
 #       tester figured out, by doing the problem by hand,
 #       that the distance that (3, 4) is from (0, 0) is 5.
 #          expected = 5
 #
-#   2.  The  TEST_DISTANCE  function CALLS the function to test,
+#   2.  The  run_test_DISTANCE  function CALLS the function to test,
 #       sending it the test case the human tester chose.
 #          answer = distance(rg.Point(3, 4))
 #
 #       The code CAPTURES the returned value in a variable (answer).
 #
-#   3.  The  TEST_DISTANCE  function then PRINTS both the EXPECTED
+#   3.  The  run_test_DISTANCE  function then PRINTS both the EXPECTED
 #       answer (5 in our example) and the ACTUAL answer returned
 #       (the value of the variable answer).
 #          print('Test 3 expected:', expected)
 #          print('       actual:  ', answer)
 #
 # The above forms a single TEST for a function that returns a value.
-# When the software developer / tester runs the TEST_DISTANCE function,
+# When the software developer / tester runs the run_test_DISTANCE function,
 # she compares the EXPECTED and ACTUAL values that are printed.
 #   -- If they are the same, the code PASSED the test.
 #   -- If they are different, the code FAILED the test.
@@ -126,6 +126,7 @@ def distance(point):
 # of the functions that you write from here on RETURN a value instead
 # of PRINTing it.
 # ----------------------------------------------------------------------
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

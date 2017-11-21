@@ -14,10 +14,10 @@ Authors: Many, many people over many, many years.
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_squares()
+    run_test_sum_squares()
 
 
-def test_sum_squares():
+def run_test_sum_squares():
     """ Tests the   sum_squares   function. """
     print()
     print('--------------------------------------------------')
@@ -58,6 +58,7 @@ def sum_squares(n):
         total = total + ((k + 1) ** 2)
 
     return total
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

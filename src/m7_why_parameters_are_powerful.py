@@ -10,16 +10,16 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_draw_circles()
+    run_test_draw_circles()
     # Un-comment the next lines when you are ready to use them.
-    # test_better_draw_circles()
-    # test_even_better_draw_circles()
+    # run_test_better_draw_circles()
+    # run_test_even_better_draw_circles()
 
 
 # ----------------------------------------------------------------------
 # READ THIS:
 #  The next two functions:
-#       draw_circles    test_draw_circles
+#       draw_circles    run_test_draw_circles
 #  are both complete.  Do NOT change them.
 #  In a previous exercise, YOU implemented very similar functions.
 #
@@ -27,7 +27,7 @@ def main():
 #  MORE POWERFUL versions of the   draw_circles   function.
 # ----------------------------------------------------------------------
 
-def test_draw_circles():
+def run_test_draw_circles():
     """ Tests the   draw_circles   function. """
     # ------------------------------------------------------------------
     # Students:
@@ -73,7 +73,7 @@ def draw_circles():
 #
 #   So, implement TWO functions immediately below this comment.
 #   They should be called:
-#      test_better_draw_circles
+#      run_test_better_draw_circles
 #      better_draw_circles
 #
 #   Your   better_draw_circles  function should have a single PARAMETER
@@ -83,14 +83,14 @@ def draw_circles():
 #   just as in   draw_circles1.  But if that parameter is given the
 #   value 3, the circles have radii:  0  3  6  9  12  ... 60.
 #
-#   Your  test_better_draw_circles function should TEST your new
+#   Your  run_test_better_draw_circles function should TEST your new
 #   better_draw_circles function, by calling it with different values
 #   for its argument.  Don't forget to put a call to
-#   test_better_draw_circles  in  main.
+#   run_test_better_draw_circles  in  main.
 #
 #   You may find that COPY-AND-PASTE of the  draw_circles  and its
-#   test_draw_circles  may get you started more quickly on your new
-#   better_draw_circles  and  test_better_draw_circles.
+#   run_test_draw_circles  may get you started more quickly on your new
+#   better_draw_circles  and  run_test_better_draw_circles.
 # ----------------------------------------------------------------------
 
 
@@ -102,7 +102,7 @@ def draw_circles():
 #
 #   In this exercise, implement TWO MORE functions immediately below
 #   this comment. They should be called:
-#      test_even_better_draw_circles
+#      run_test_even_better_draw_circles
 #      even_better_draw_circles
 #
 #   Your new   even_better_draw_circles  function should have

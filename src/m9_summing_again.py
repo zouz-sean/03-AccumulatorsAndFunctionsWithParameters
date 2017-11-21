@@ -10,11 +10,11 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_powers()
-    test_sum_powers_in_range()
+    run_test_sum_powers()
+    run_test_sum_powers_in_range()
 
 
-def test_sum_powers():
+def run_test_sum_powers():
     """ Tests the   sum_powers   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this function.
@@ -51,7 +51,7 @@ def sum_powers(n, p):
     # ------------------------------------------------------------------
 
 
-def test_sum_powers_in_range():
+def run_test_sum_powers_in_range():
     """ Tests the   sum_powers_in_range   function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this function.
