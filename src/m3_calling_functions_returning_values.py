@@ -22,7 +22,8 @@ def main():
 
     # ------------------------------------------------------------------
     # TODO: 9. DO THIS LAST!
-    #    -- Uncomment the line of code below to run the main function in m3t_tester.py (do not make changes to it).
+    #    -- Uncomment the line of code below to run the main function
+    #         in m3t_tester.py (do not make changes to it).
     #         It runs OUR tests on your code.
     #    -- Check to see whether all test cases indicate they
     #          "COMPLETED SUCCESSFULLY!"
@@ -163,7 +164,7 @@ def run_test_digits_in_power():
     #   It TESTS the  digits_in_power  function defined below.
     #   Include at least **   3   ** tests.
     #
-    # Use the same 4-step process as in implementing the previous TEST functions.
+    # Use the same 4-step process as in implementing previous TEST functions.
     # ------------------------------------------------------------------
     print()
     print('--------------------------------------------------')

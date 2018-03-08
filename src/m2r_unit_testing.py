@@ -3,19 +3,20 @@ This module helps you understand:
   -- UNIT TESTING.
   -- the difference between PRINT and RETURN
 
-Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues.
+Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Mark Hays,
+    Amanda Stouder, and their colleagues.
 """
-# ----------------------------------------------------------------------
-# Students: READ the comment FARTHER DOWN in this file.
-#   There is nothing for you to turn in from this file.
+###############################################################################
 #
-# TODO #1:
-# This file is the first file in project to use rosegraphics, so you need to right click
-# on the src folder and select Mark Directory as --> Sources Root
-# When you do that watch the red underline on rosegraphic disappear (you may need
-# to expand the line below to see the import rosegraphics as rg statement).
-# ----------------------------------------------------------------------
+# TODO: 1.
+#   Allow this module to use the  rosegraphics.py  module by marking the
+#     src
+#   folder in this project as a "Sources Root", as follows:
+#
+#     In the Project window (to the left), right click on the src  folder,
+#     then select  Mark Directory As  ~  Sources Root.
+#
+###############################################################################
 
 import rosegraphics as rg
 import math
@@ -63,38 +64,50 @@ def distance(point):
 
 
 # ----------------------------------------------------------------------
-# In most exercises we will follow the  UNIT TESTING that the above code illustrates.
+# Calls  main  to start the ball rolling.
+# ----------------------------------------------------------------------
+main()
+
+###############################################################################
+# TODO: 2.
 #
-# Look at the  DISTANCE  function defined above.  It is the function
-# that we want to test.  Read its doc-string.
+# READ the following, asking questions as needed.
+# When you believe that you understading what is says about UNIT TESTING,
+# mark the above TO-DO as DONE.
 #
-# Now look at the  run_test_DISTANCE  function defined above.
-# It is the function that  TESTS  the DISTANCE function.
-# We call this  UNIT TESTING  because we are testing a single UNIT
-# of the program, here, the function DISTANCE.
+#   In most exercises we will follow the  UNIT TESTING
+#   that the above code illustrates.
 #
-# A run_test_blah  function does the following several times:
+#   Look at the  DISTANCE  function defined above.
+#   It is the function that we want to test.  Read its doc-string.
 #
-#   1.  The  HUMAN  tester figures out the CORRECT (EXPECTED) answer
-#       on a particular test case, usually by working the problem
-#       by hand or by trusting a test case provided by the instructor.
+#   Now look at the  run_test_DISTANCE  function defined above.
+#   It is the function that  TESTS  the DISTANCE function.
+#   We call this  UNIT TESTING  because we are testing a single UNIT
+#   of the program, here, the function DISTANCE.
 #
-#       For example, in the above run_test_DISTANCE function, the human
-#       tester figured out, by doing the problem by hand,
-#       that the distance that (3, 4) is from (0, 0) is 5.
-#          expected = 5
+#   A   run_test_blah   function does the following several times:
 #
-#   2.  The  run_test_DISTANCE  function CALLS the function to test,
-#       sending it the test case the human tester chose.
-#          answer = distance(rg.Point(3, 4))
+#     1.  The  HUMAN  tester figures out the CORRECT (EXPECTED) answer
+#         on a particular test case, usually by working the problem
+#         by hand or by trusting a test case provided by the instructor.
 #
-#       The code CAPTURES the returned value in a variable (answer).
+#         For example, in the above   run_test_DISTANCE   function,
+#         the human tester figured out, by doing the problem by hand,
+#         that the distance that (3, 4) is from (0, 0) is 5:
+#             expected = 5
 #
-#   3.  The  run_test_DISTANCE  function then PRINTS both the EXPECTED
-#       answer (5 in our example) and the ACTUAL answer returned
-#       (the value of the variable answer).
-#          print('Test 3 expected:', expected)
-#          print('       actual:  ', answer)
+#     2.  The  run_test_DISTANCE  function CALLS the function to test,
+#         sending it the test case the human tester chose:
+#             answer = distance(rg.Point(3, 4))
+#
+#         The code CAPTURES the returned value in a variable (namely, answer).
+#
+#     3.  The  run_test_DISTANCE  function then PRINTS both the EXPECTED
+#         answer (5 in our example) and the ACTUAL answer returned
+#         (the value of the variable answer).
+#             print('Test 3 expected:', expected)
+#             print('       actual:  ', answer)
 #
 # The above forms a single TEST for a function that returns a value.
 # When the software developer / tester runs the run_test_DISTANCE function,
@@ -125,10 +138,6 @@ def distance(point):
 # We are teaching you practices that scale up, so we demand that most
 # of the functions that you write from here on RETURN a value instead
 # of PRINTing it.
-# ----------------------------------------------------------------------
+#
 
-
-# ----------------------------------------------------------------------
-# Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
-main()
+###############################################################################
